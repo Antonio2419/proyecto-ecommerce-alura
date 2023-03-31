@@ -1,0 +1,176 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "AUDIFONOS Sony Bluetooth",
+            "price": 499,
+            "image": "https://m.media-amazon.com/images/I/51SKmu2G9FL._AC_SX466_.jpg",
+            "category": "AUDIFONOS"
+        },
+        {
+            "id": 2,
+            "title": "CARGADOR Tipo C/C",
+            "price": 120,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_732947-MLM50065622590_052022-O.webp",
+            "category": "CARGADOR"
+        },
+        {
+            "id": 3,
+            "title": "MEMORIA USB 8gb Blackpcs",
+            "price": 110,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_951260-MLM31368846287_072019-O.webp",
+            "category": "MEMORIA"
+        },
+        {
+            "id": 4,
+            "title": "AUDIFONOS Bluetooth Gemelos",
+            "price": 299,
+            "image": "https://i.linio.com/p/11f97d875856fcf3f43342bd9bbe18ab-product.webp",
+            "category": "BLUETOOTH"
+        },
+        {
+            "id": 5,
+            "title": "CARGADOR IPHOD",
+            "price": 110,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_885251-MLM52673745826_122022-O.webp",
+            "category": "CARGADOR"
+
+        },
+        {
+            "id": 6,
+            "title": "MAUSE Gamer Alambrico",
+            "price": 185,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_955459-MLM43574711570_092020-O.webp",
+            "category": "ACCESORIO PC"
+
+        },
+        {
+            "id": 7,
+            "title": "AUDIFONOS Sony Deadema",
+            "price": 399,
+            "image": "https://m.media-amazon.com/images/I/61X3HF-MiLS._AC_SX466_.jpg",
+            "category": "AUDIFONOS"
+        },
+        {
+            "id": 8,
+            "title": "AUDIFONOS Bluetooth 1hora",
+            "price": 245,
+            "image": "https://i.linio.com/p/ee54f455ddf6d2f3e09873a58c20513c-product.webp",
+            "category": "BLUETOOTH"
+        },
+        {
+            "id": 9,
+            "title": "AUDIFONOS Bluetooth Waterproof",
+            "price": 799,
+            "image": "https://i.linio.com/p/4fecee13cf8884d0241c110087ffa5e2-product.webp",
+            "category": "BLUETOOTH"
+        },
+        {
+            "id": 10,
+            "title": "MAUSE Inalambrco Eecargable",
+            "price": 190,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_712051-CBT54254969757_032023-O.webp",
+            "category": "ACCESORIO PC"
+        },
+        {
+            "id": 11,
+            "title": "CARGADOR Turbo V8",
+            "price": 100,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_675936-MLM43496923406_092020-O.webp",
+            "category": "CARGADOR"
+        },
+        {
+            "id": 12,
+            "title": "AUDIFONOS Bluetooth Sony",
+            "price": 565,
+            "image": "https://cdn1.coppel.com/images/catalog/pm/2537393-1.jpg?iresize=width:300,height:240",
+            "category": "BLUETOOTH"
+        },
+        {
+            "id": 13,
+            "title": "AUDIFONOS Ulipts Deadema",
+            "price": 380,
+            "image": "https://m.media-amazon.com/images/I/61-ZTbzw6oL._AC_SX466_.jpg",
+            "category": "AUDIFONOS"
+        },
+        {
+            "id": 14,
+            "title": "CABLE Adaptadores",
+            "price": 180,
+            "image": "https://m.media-amazon.com/images/I/51thTqgC6LL._SX466_.jpg",
+            "category": "CABLE"
+        },
+        {
+            "id": 15,
+            "title": "CABLE Auxiliar 3.5",
+            "price":50,
+            "image": "https://m.media-amazon.com/images/I/616Vdi-BFOL.__AC_SX300_SY300_QL70_ML2_.jpg",
+            "category": "CABLE"
+        },
+        {
+            "id": 16,
+            "title": "MEMORIA USB Adata 32gb",
+            "price": 99,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_745413-MLA41773177598_052020-O.webp",
+            "category": "MEMORIA"
+        },
+        {
+            "id": 17,
+            "title": "CARGADOR AUTO TURBO",
+            "price": 105,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_820159-CBT47490640871_092021-V.webp",
+            "category": "CARGADOR"
+
+        },
+        {
+            "id": 18,
+            "title": "CABLE Tipo C ",
+            "price": 150,
+            "image": "https://m.media-amazon.com/images/I/51vsmI3gKlL.__AC_SX300_SY300_QL70_ML2_.jpg",
+            "category": "CABLE"
+
+        },
+        {
+            "id": 19,
+            "title": "TECLADO GAMER",
+            "price": 458,
+            "image": "https://m.media-amazon.com/images/I/61RZxFF3ohL._AC_SX466_.jpg",
+            "category": "ACCESORIO PC"
+        },
+        {
+            "id": 20,
+            "title": "MEMORIA USB 64GB ",
+            "price": 35,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_990211-CBT53574030823_022023-O.webp",
+            "category": "MEMORIA"
+        },
+        {
+            "id": 21,
+            "title": "CABLE Auxiliar Y",
+            "price": 99,
+            "image": "https://m.media-amazon.com/images/I/61swkArNZpL._AC_SX466_.jpg",
+            "category": "CABLE"
+        },
+        {
+            "id": 22,
+            "title": "AUDIFONOS PC",
+            "price": 325,
+            "image": "https://m.media-amazon.com/images/I/71OJL2MssPL._AC_SX466_.jpg",
+            "category": "ACCESORIO PC"
+        },
+        {
+            "id": 23,
+            "title": "AUDIFONOS SONY BLEU",
+            "price": 65,
+            "image": "https://www.radioshack.com.mx/medias/92176.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTE3NTE4fGltYWdlL2pwZWd8aDJiL2gxOS84OTIzMTkxNTA5MDIyLmpwZ3xkZGY2MjUxYmUzMjdkMDljYTQ2ZWFmNDY0ZTUwOGRmY2ZiMWFhYmFjZGViMDAyMTc4ZThiNTMzYzI2MDUxNmQ1",
+            "category": "AUDIFONOS"
+        },
+        {
+            "id": 24,
+            "title": "MEMORIA USB 128GB ",
+            "price": 365,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_939111-CBT54350761591_032023-O.webp",
+            "category": "MEMORIA"
+        }
+    ]
+}

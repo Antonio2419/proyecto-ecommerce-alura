@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciber Space</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/detalles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+  <body>
+  <!--ciber space-->
+    <nav class="nav">
+        <div class="nav__center conteiner">
+          <a href="./detalles.html">
+            <div class="nav__logo">
+                <h1>CIBER <span>SPACE</span></h1>
+            </div>
+          </a>
+            <ul class="nav__list">
+          <span>
+          
+            <i class='bx bx-headphone'></i>
+          </span>
+          <div class="carrito__icon">
+            <i class="bx bx-cart"></i>
+            <span class="item__total">0</span>
+          </div>
+        </ul>
+        </div>
+    </nav>
+    <!--buscar-->
+    <section class="filter">
+      <div class="grid">
+        <div class="div">
+          <label for="buscar"><span><i class="bx bx-search"></i></span></label>
+          <input type="text" placeholder="Buscar Productos...">
+        </div>
+        <div class="category">
+          <select id="category" onclick="categoryValue()">
+            <option value="">PRODUCTOS</option>
+            <option value="AUDIFONOS">Audifonos</option>
+            <option value="CARGADOR">Cargadores</option>
+            <option value="MEMORIA">Memorias</option>
+            <option value="ACCESORIO PC">Accesorios pc</option>
+            <option value="BLUETOOTH">Audifonos bluetooth</option>
+            <option value="CABLE">Cables</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <!-- produccion-->
+    <section class="productos">
+      <div class="productos__center">
+      <div class="producto">
+          <div class="image__container coeazon">
+            <img src="https://m.media-amazon.com/images/I/51SKmu2G9FL._AC_SX466_.jpg" alt="">
+          </div>
+          <div class="producto__footer">
+            <h1>Productos Originales</h1>
+            <div class="rating">
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span>
+                <i class="bx bx-star"></i>
+              </span>
+            </div>
+            <div class="price">$102.00</div>
+          </div>
+          <div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Añadir carrito</a>
+              <a href="detalles.html" class="btn view">Vista</a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!--Carrito-->
+    
+    <section class="carrito__overlay">
+      <div class="carrito">
+        <span class="close__carrito">
+          <i class="bx bx-x"></i>
+        </span>
+        <h1>Su Carrito</h1>
+
+        <div class="carrito__center">
+
+           <div class="carrito__item">
+
+            <!-- <img src="https://m.media-amazon.com/images/I/51SKmu2G9FL._AC_SX466_.jpg" alt="reloj">
+            <div>
+              <h3>Productos Originales </h3>
+              <p class="price">$122</p>
+            </div>
+            <div>
+              <span>
+                <i class="bx bxs-up-arrow"></i>
+              </span>
+              <p>1</p>
+              <span>
+                <i class="bx bxs-down-arrow"></i>
+              </span>
+            </div>
+            <div>
+              <span class="remove__item">
+                <i class="bx bx-trash"></i>
+              </span>
+            </div> -->
+
+            
+          </div> 
+        </div>
+
+        <div class="carrito__footer">
+            <h3>Total: $ <span class="carrito__total">0</span></h3>
+            <button class="clear__carrito btn">remover carrito</button>
+        </div>
+      </div>
+    </section>
+    <section class="formcontato" id="contacto" >
+      
+       <form action="#" class="formulario" id="formulario">
+        <div class="formulario-area">
+          <h2 class="formcontato__title">Habla con Nosotros</h2> 
+          <div class="formulario__grupo" id="grupo__nombre">
+              <label class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                  <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre">
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+          </div>
+          <div class="formulario__grupo" id="grupo__correo">
+              <label class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                  <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Correo Electronico">
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error"></p>
+          </div>
+          <div class="formulario__grupo" id="grupo__telefono">
+              <label class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                  <input type="telefono" class="formulario__input" name="telefono" id="telefono" placeholder="telefono">
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error"></p>
+          </div>
+          <div class="formulario__grupo" id="grupo__mensaje">
+              <label class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                <textarea type="telefono" class="formulario__input" rows="2" name="Mensaje" id="mensaje" placeholder="mensaje">
+                  </textarea>
+              </div>
+              <p class="formulario__input-error"></p>
+          </div>
+  
+      <div class="formulario__mensaje" id="formulario__mensaje">
+          <p><i class="fas fa-exclamation-circle"> <b>Error:</b> Debes completar todos los campos</i></p>
+      </div>
+          <div class="formulario__grupo formulario__grupo-btn-enviar">
+              <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">El formulario se envió correctamente</p>
+              <input class="formulario__btn" type="submit" value="Enviar">
+          </div>
+      
+      </form>
+  </section>
+
+  <footer>
+     
+      <div class="redes">
+          <h3>Creado por Marco Antonio Merida</h3>
+          <p>derechos reservados por alura@latan</p>
+        
+          <a href=""><i class='bx bxl-facebook-circle'></i></a> 
+          <a href=""><i class='bx bxl-instagram'></i></a> 
+          <a href=""><i class='bx bxl-linkedin' ></i></a> 
+          <a href=""><i class='bx bxl-gmail' ></i></a> 
+      </div>
+  </footer>
+  
+</form>
+</section> 
+
+
+<script src="../js/formulario.js"></script>
+<script src="../js/carrito.js" ></script>
+  <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>   
+  </body>
+</html>
